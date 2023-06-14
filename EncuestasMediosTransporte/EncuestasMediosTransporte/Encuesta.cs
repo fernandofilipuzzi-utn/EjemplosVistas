@@ -9,7 +9,6 @@ namespace EncuestasCMD
     class Encuesta
     {
         public string Email { get; set; }
-
         public bool UsaBicicleta { get; set; }
         public bool UsaAuto{ get; set; }
         public bool UsaTransportePublico { get; set; }     

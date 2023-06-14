@@ -61,48 +61,57 @@ namespace EncuestasCMD
             if (nuevo.UsaAuto) cantAuto++;
             if (nuevo.UsaTransportePublico) cantTranspPublico++;
 
-            if (puedeSerCantactado==true)
+            if (puedeSerCantactado == true)
+            {
                 contactables[CantContactables] = nuevo;
+                CantContactables++;
+            }
         }
 
         public Encuesta VerContactable(int idx)
         {
-            return contactables[idx];
+            Encuesta buscado = null;
+            if(idx>=0 && idx<CantContactables)
+                buscado= contactables[idx];
+            return buscado;
         }
 
         public void OrdernarEncuestables()
         {
-            QuickSort(contactables, 0, CantContactables);
+            QuickSort(contactables, 0, CantContactables-1);
         }
 
         void QuickSort(Encuesta[] lista, int inicio, int fin)
         {
-            //partición
-            Encuesta p = lista[inicio];
-            int m = inicio + 1;
-            int n = fin;
-            Encuesta aux;
-
-            while (m <= n)//hasta que se crucen
+            if (fin > 0)
             {
-                while (m <= fin && p.DistanciaASuDestino >= lista[m].DistanciaASuDestino) m++;
-                while (n > inicio && p.DistanciaASuDestino <= lista[n].DistanciaASuDestino) n--;
+                #region particion
+                Encuesta p = lista[inicio];
+                int m = inicio + 1;
+                int n = fin;
+                Encuesta aux;
 
-                if (m < n)
+                while (m <= n)
                 {
-                    aux = lista[m];
-                    lista[m] = lista[n];
-                    lista[n] = aux;
-                }
-            }
-            lista[inicio] = lista[n];
-            lista[n] = p;
-            //fin partición
+                    while (m <= fin && p.DistanciaASuDestino >= lista[m].DistanciaASuDestino) m++;
+                    while (n > inicio && p.DistanciaASuDestino <= lista[n].DistanciaASuDestino) n--;
 
-            if (inicio <= n - 1)
-                QuickSort(lista, inicio, n - 1);
-            if (n + 1 <= fin)
-                QuickSort(lista, n + 1, fin);
+                    if (m < n)
+                    {
+                        aux = lista[m];
+                        lista[m] = lista[n];
+                        lista[n] = aux;
+                    }
+                }
+                lista[inicio] = lista[n];
+                lista[n] = p;
+                #endregion
+
+                if (inicio < n - 1)
+                    QuickSort(lista, inicio, n - 1);
+                if (n + 1 < fin)
+                    QuickSort(lista, n + 1, fin);
+            }
         }
     }
 }

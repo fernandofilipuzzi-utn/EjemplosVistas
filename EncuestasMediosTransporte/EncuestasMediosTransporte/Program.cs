@@ -79,7 +79,7 @@ namespace EncuestasCMD
             Console.ReadKey();            
         }
 
-        static int Informe(ProcesoEncuestas proceso)
+        static void Informe(ProcesoEncuestas proceso)
         {
             Console.Clear();
 
@@ -90,7 +90,8 @@ namespace EncuestasCMD
             Console.WriteLine($"\t{"Automóvil:",-20}  {proceso.PorcAuto,10:f2}%");
             Console.WriteLine($"\t{"Transporte público:",-20}  {proceso.PorcTranspPublico,10:f2}%");
 
-            return Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Presione una tecla para volver al menú principal");
+            Console.ReadKey();
         }
 
         static void ListadoContactables(ProcesoEncuestas proceso)
@@ -100,10 +101,10 @@ namespace EncuestasCMD
             Console.WriteLine("\t\t Informe de encuestados contactables \n");
 
             proceso.OrdernarEncuestables();
-            Console.WriteLine($"\t{"Email",-30}");
+            Console.WriteLine($"\t{"Email",-30} {"Distancia.",10}");
             for (int n = 0; n < proceso.CantContactables; n++)
             {
-                Console.WriteLine($"\t{proceso.VerContactable(n),-30:f2}");
+                Console.WriteLine($"\t{proceso.VerContactable(n).Email,-30} {proceso.VerContactable(n).DistanciaASuDestino,10:f2}");
             }
 
             Console.WriteLine("\n\nPresione una tecla para volver al menú principal");
@@ -113,7 +114,10 @@ namespace EncuestasCMD
         static void Main(string[] args)
         {
             ProcesoEncuestas proceso = new ProcesoEncuestas();
-
+            /*para prueba
+            proceso.RegistrarEncuesta(new Encuesta { Email = "fernando@gmail.com", DistanciaASuDestino = 4 },true);
+            proceso.RegistrarEncuesta(new Encuesta { Email = "rafael@gmail.com", DistanciaASuDestino = 3 }, true);
+            */
             int op;
             do
             {
