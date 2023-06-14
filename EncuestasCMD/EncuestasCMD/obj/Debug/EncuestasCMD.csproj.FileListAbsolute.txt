@@ -1,0 +1,7 @@
+F:\repos_utn\ActividadEncuestas\EncuestasCMD\EncuestasCMD\bin\Debug\EncuestasCMD.exe.config
+F:\repos_utn\ActividadEncuestas\EncuestasCMD\EncuestasCMD\bin\Debug\EncuestasCMD.exe
+F:\repos_utn\ActividadEncuestas\EncuestasCMD\EncuestasCMD\bin\Debug\EncuestasCMD.pdb
+F:\repos_utn\ActividadEncuestas\EncuestasCMD\EncuestasCMD\obj\Debug\EncuestasCMD.csproj.AssemblyReference.cache
+F:\repos_utn\ActividadEncuestas\EncuestasCMD\EncuestasCMD\obj\Debug\EncuestasCMD.csproj.CoreCompileInputs.cache
+F:\repos_utn\ActividadEncuestas\EncuestasCMD\EncuestasCMD\obj\Debug\EncuestasCMD.exe
+F:\repos_utn\ActividadEncuestas\EncuestasCMD\EncuestasCMD\obj\Debug\EncuestasCMD.pdb
