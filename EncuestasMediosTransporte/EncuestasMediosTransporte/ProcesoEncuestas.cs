@@ -83,7 +83,7 @@ namespace EncuestasCMD
 
         void QuickSort(Encuesta[] lista, int inicio, int fin)
         {
-            if (fin > 0)
+            if (fin > inicio)
             {
                 #region particion
                 Encuesta p = lista[inicio];
