@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using EncuestasLib;
+
+
 namespace EncuestasCMD
 {
     class Program

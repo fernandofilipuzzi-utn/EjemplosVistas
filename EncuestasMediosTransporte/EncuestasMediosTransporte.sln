@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.33529.622
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncuestasCMD", "EncuestasMediosTransporte\EncuestasCMD.csproj", "{C34AC50C-A46F-4559-8A80-9A693796875E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncuestasLib", "EncuestasLib\EncuestasLib.csproj", "{EF3F1983-63EF-4C38-B67B-0D4DA0C250E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C34AC50C-A46F-4559-8A80-9A693796875E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C34AC50C-A46F-4559-8A80-9A693796875E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C34AC50C-A46F-4559-8A80-9A693796875E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF3F1983-63EF-4C38-B67B-0D4DA0C250E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF3F1983-63EF-4C38-B67B-0D4DA0C250E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF3F1983-63EF-4C38-B67B-0D4DA0C250E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF3F1983-63EF-4C38-B67B-0D4DA0C250E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

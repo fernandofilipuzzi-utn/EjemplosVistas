@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EncuestasCMD
+
+namespace EncuestasLib
 {
-    class ProcesoEncuestas
+    public class ProcesoEncuestas
     {
         Encuesta[] contactables;
         public int CantContactables { get; private set; }

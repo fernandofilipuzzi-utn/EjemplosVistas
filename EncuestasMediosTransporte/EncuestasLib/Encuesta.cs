@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EncuestasCMD
+namespace EncuestasLib
 {
-    class Encuesta
+    public class Encuesta
     {
         public string Email { get; set; }
 
