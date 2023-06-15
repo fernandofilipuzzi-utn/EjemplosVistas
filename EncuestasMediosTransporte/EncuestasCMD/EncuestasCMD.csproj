@@ -48,7 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="uml\encuesta.uml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EncuestasLib\EncuestasLib.csproj">
