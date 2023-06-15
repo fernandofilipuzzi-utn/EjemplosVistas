@@ -149,10 +149,10 @@
 <XPD:REF name="Model">GX4LuyMYkkmwxMBPyCnjcAAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="TailRoleNameLabel" type="EdgeLabelView" guid="/GD5u3ijUk6Wwv5R2Fp/tgAA">
-<XPD:ATTR name="Alpha" type="real">0,626106426799365</XPD:ATTR>
-<XPD:ATTR name="Distance" type="real">52,3450093132096</XPD:ATTR>
+<XPD:ATTR name="Alpha" type="real">0,657467830164057</XPD:ATTR>
+<XPD:ATTR name="Distance" type="real">82,2192191643779</XPD:ATTR>
 <XPD:ATTR name="EdgePosition" type="EdgePositionKind">epTail</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">-contactables</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">-contactables:Encuesta[]</XPD:ATTR>
 <XPD:REF name="Model">tFZF2Yw10Uil2H/BeA6HOQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="HeadMultiplicityLabel" type="EdgeLabelView" guid="7PA17sTVo0K7+UMZxFBpmAAA">
@@ -228,15 +228,15 @@
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="Operations[1]" type="UMLOperation" guid="T38FxJs20E2KoE6YPUoFyQAA">
-<XPD:ATTR name="Name" type="string">VerContatable</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">VerContactable</XPD:ATTR>
 <XPD:REF name="Owner">y+DrvMf9v02+kkQtFm4yZAAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="8qoD/If9MkOQS9doK/qEdwAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="7jqlfyVm4EG9Ds3zgmfvRAAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">T38FxJs20E2KoE6YPUoFyQAA</XPD:REF>
 <XPD:REF name="Type_">9hiZdCG25U226SjgEGC4UQAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="PMxHqcQDU0mJn1dwt82zCAAA">
+<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="s0zqhwc04E+7AL7ZoNh1dAAA">
 <XPD:ATTR name="Name" type="string">idx</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">T38FxJs20E2KoE6YPUoFyQAA</XPD:REF>
@@ -262,7 +262,7 @@
 <XPD:REF name="Owner">y+DrvMf9v02+kkQtFm4yZAAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="t4/mwlF02UuWrqVoylFQNQAA">
-<XPD:ATTR name="Name" type="string">ProcAuto</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">PorcAuto</XPD:ATTR>
 <XPD:ATTR name="StereotypeName" type="string">readonly</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">double</XPD:ATTR>
 <XPD:REF name="Owner">y+DrvMf9v02+kkQtFm4yZAAA</XPD:REF>
@@ -284,8 +284,8 @@
 <XPD:REF name="Views[3]">Jey2ciwnJU2+AYJ6HdqinQAA</XPD:REF>
 <XPD:ATTR name="#TypedParameters" type="integer">3</XPD:ATTR>
 <XPD:REF name="TypedParameters[0]">8qoD/If9MkOQS9doK/qEdwAA</XPD:REF>
-<XPD:REF name="TypedParameters[1]" pathname="encuesta">Vbj2Al02J0GL+jm/MbjUggAA</XPD:REF>
-<XPD:REF name="TypedParameters[2]">wXXe5uBa/02C9dhVdpxRmAAA</XPD:REF>
+<XPD:REF name="TypedParameters[1]">wXXe5uBa/02C9dhVdpxRmAAA</XPD:REF>
+<XPD:REF name="TypedParameters[2]">7jqlfyVm4EG9Ds3zgmfvRAAA</XPD:REF>
 <XPD:ATTR name="#Associations" type="integer">1</XPD:ATTR>
 <XPD:REF name="Associations[0]">tFZF2Yw10Uil2H/BeA6HOQAA</XPD:REF>
 <XPD:ATTR name="#Attributes" type="integer">5</XPD:ATTR>
@@ -324,7 +324,7 @@
 <XPD:REF name="Views[3]">HmDEPOEaHku4poFvhuq6uQAA</XPD:REF>
 <XPD:ATTR name="#Connections" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Connections[0]" type="UMLAssociationEnd" guid="tFZF2Yw10Uil2H/BeA6HOQAA">
-<XPD:ATTR name="Name" type="string">contactables</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">contactables:Encuesta[]</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="Multiplicity" type="string">*</XPD:ATTR>
 <XPD:REF name="Association">Mt9B4XWLyECKYw2v7MR1OAAA</XPD:REF>
