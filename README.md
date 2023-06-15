@@ -1,2 +1,8 @@
-# ActividadEncuestas
-temas arreglos, objetos, windows form, modales
+# Actividad en el aula  - Encuestas
+
+Temas:
+   - clases y objetos, 
+   - arreglos, ordenamiento
+   - windows form, 
+   - ventanas modales
+   
