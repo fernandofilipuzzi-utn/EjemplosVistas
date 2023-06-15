@@ -31,8 +31,13 @@ namespace EncuestasForm
                 nuevo.UsaBicicleta = fRegistro.cbUsaBicicleta.Checked;
                 nuevo.UsaAuto = fRegistro.cbUsaAuto.Checked;
                 nuevo.UsaTransportePublico = fRegistro.cbTranspPub.Checked;
+                nuevo.DistanciaASuDestino = Convert.ToDouble( fRegistro.tbDistanciaASuDestino.Text);
 
-                proceso.RegistrarEncuesta(nuevo,false);
+                nuevo.Email = fRegistro.tbEmail.Text;
+
+                bool puedeSerContactado = fRegistro.checkBox1.Checked;
+
+                proceso.RegistrarEncuesta(nuevo, puedeSerContactado);
             }
 
             fRegistro.Dispose();
@@ -41,7 +46,9 @@ namespace EncuestasForm
         private void btnInforme_Click(object sender, EventArgs e)
         {
             FormInforme fInforme = new FormInforme();
-                        
+
+            fInforme.Text = "Informe.";
+
             fInforme.listBox1.Items.Add("\t\t Informe de resultados");
             fInforme.listBox1.Items.Add("");
             fInforme.listBox1.Items.Add("Modo de transporte habitual");
@@ -57,14 +64,16 @@ namespace EncuestasForm
         {
             FormInforme fInforme = new FormInforme();
 
+            fInforme.Text = "Informe.";
+
             fInforme.listBox1.Items.Add("\t\t Informe de encuestados contactables");
             fInforme.listBox1.Items.Add("");
 
             proceso.OrdernarEncuestables();
-            fInforme.listBox1.Items.Add($"\t{"Email",-30}");
+            fInforme.listBox1.Items.Add($"\t{"Email",-30} {"Distancia",10}");
             for (int n = 0; n < proceso.CantContactables; n++)
             {
-                fInforme.listBox1.Items.Add($"\t{proceso.VerContactable(n),-30:f2}");
+                fInforme.listBox1.Items.Add($"\t{proceso.VerContactable(n).Email,-30} {proceso.VerContactable(n).DistanciaASuDestino,10:f2}");
             }
 
             fInforme.ShowDialog();

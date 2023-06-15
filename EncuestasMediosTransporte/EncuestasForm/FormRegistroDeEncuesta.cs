@@ -16,5 +16,10 @@ namespace EncuestasForm
         {
             InitializeComponent();
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            tbEmail.Enabled = checkBox1.Checked;
+        }
     }
 }
