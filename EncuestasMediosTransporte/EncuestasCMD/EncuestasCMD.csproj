@@ -52,5 +52,8 @@
     <None Include="App.config" />
     <None Include="uml\encuesta.uml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="uml\encuesta.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
