@@ -8,7 +8,7 @@ Temas:
 
 
 **El diagrama UML:**<br/>
-![alt text](https://github.com/fernandofilipuzzi-utn/ActividadEncuestas/blob/main/EncuestasMediosTransporte/EncuestasCMD/uml/encuesta.jpg)
+![alt text](https://github.com/fernandofilipuzzi-utn/ActividadEncuestas/blob/form/EncuestasMediosTransporte/EncuestasLib/uml/encuesta.jpg)
 
 **Recordario comandos git - para los que quieran ver la segunda parte resuelta**
 - Preparar el repo y clonar el repositorio 
@@ -21,9 +21,9 @@ C:\repos> cd ActividadEncuestas
 C:\repos\ActividadEncuestas> 
 ```
 
-- Cambiar a la rama desarrollo (resuelto completo)
+- Cambiar a la **rama form**(resuelto completo)
 ```
-C:\repos\ActividadEncuestas>git checkout desarrollo
+C:\repos\ActividadEncuestas>git checkout form
 ```
 
 - Volver a la rama main, (siempre que no tengan cambios realizados)
