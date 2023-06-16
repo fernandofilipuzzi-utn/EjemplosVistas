@@ -7,7 +7,7 @@ Temas:
    - ventanas modales
 
 **El diagrama UML:**<br/>
-![alt text](https://github.com/fernandofilipuzzi-utn/ActividadEncuestas/blob/desarrollo/EncuestasMediosTransporte/EncuestasLib/uml/encuesta.jpg?raw=true)
+![alt text](https://github.com/fernandofilipuzzi-utn/ActividadEncuestas/blob/form/EncuestasMediosTransporte/EncuestasLib/uml/encuesta.jpg?raw=true)
 
 **Recordario comandos git - para los que quieran ver la segunda parte resuelta**
 - Preparar el repo y clonar el repositorio 
@@ -20,9 +20,9 @@ C:\repos> cd ActividadEncuestas
 C:\repos\ActividadEncuestas> 
 ```
 
-- Cambiar a la rama desarrollo (resuelto completo)
+- Cambiar a la **rama form**(resuelto completo)
 ```
-C:\repos\ActividadEncuestas>git checkout desarrollo
+C:\repos\ActividadEncuestas>git checkout form
 ```
 
 - Volver a la rama main, (siempre que no tengan cambios realizados)
@@ -30,12 +30,12 @@ C:\repos\ActividadEncuestas>git checkout desarrollo
 C:\repos\ActividadEncuestas>git checkout main
 ```
 
-- Saber en que rama están
+- saber en que rama están
 ```
 C:\repos\ActividadEncuestas>git branch
 ```
 
-- Lanzar el explorador de archivos donde están
+- lanzar el explorador de archivos donde están
 ```
 C:\repos\ActividadEncuestas>start .
 ```
