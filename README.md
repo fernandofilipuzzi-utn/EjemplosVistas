@@ -9,7 +9,7 @@ Temas:
 El diagrama UML:<br/>
 ![alt text](https://github.com/fernandofilipuzzi-utn/ActividadEncuestas/blob/desarrollo/EncuestasMediosTransporte/EncuestasLib/uml/encuesta.jpg?raw=true)
 
-**Recordario comandos git**
+# Recordario comandos git
 - Preparar el repo y clonar el repositorio 
 ```
 C:\Users\fernando> cd ../..
@@ -41,7 +41,7 @@ C:\repos\ActividadEncuestas>start .
 ```
 
 
-**Recordario comandos git - para los clonan el fork del repositorio **
+# Recordario comandos git - para los clonan el fork del repositorio
 
 - Preparar el repo y clonar el fork del repositorio 
 ```
