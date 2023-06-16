@@ -31,9 +31,9 @@ namespace EncuestasForm
         {
             this.btnConfirmar = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.cbUsaBicicleta = new System.Windows.Forms.CheckBox();
-            this.cbUsaAuto = new System.Windows.Forms.CheckBox();
-            this.cbTranspPub = new System.Windows.Forms.CheckBox();
+            this.chkUsaBicicleta = new System.Windows.Forms.CheckBox();
+            this.chkUsaAuto = new System.Windows.Forms.CheckBox();
+            this.chkTranspPub = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.tbDistanciaASuDestino = new System.Windows.Forms.TextBox();
@@ -41,7 +41,7 @@ namespace EncuestasForm
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.tbEmail = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.chkPuedeSerContactado = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -69,39 +69,39 @@ namespace EncuestasForm
             // 
             // cbUsaBicicleta
             // 
-            this.cbUsaBicicleta.AutoSize = true;
-            this.cbUsaBicicleta.Location = new System.Drawing.Point(115, 31);
-            this.cbUsaBicicleta.Name = "cbUsaBicicleta";
-            this.cbUsaBicicleta.Size = new System.Drawing.Size(92, 17);
-            this.cbUsaBicicleta.TabIndex = 2;
-            this.cbUsaBicicleta.Text = "¿Usa Bicleta?";
-            this.cbUsaBicicleta.UseVisualStyleBackColor = true;
+            this.chkUsaBicicleta.AutoSize = true;
+            this.chkUsaBicicleta.Location = new System.Drawing.Point(115, 31);
+            this.chkUsaBicicleta.Name = "cbUsaBicicleta";
+            this.chkUsaBicicleta.Size = new System.Drawing.Size(92, 17);
+            this.chkUsaBicicleta.TabIndex = 2;
+            this.chkUsaBicicleta.Text = "¿Usa Bicleta?";
+            this.chkUsaBicicleta.UseVisualStyleBackColor = true;
             // 
             // cbUsaAuto
             // 
-            this.cbUsaAuto.AutoSize = true;
-            this.cbUsaAuto.Location = new System.Drawing.Point(115, 54);
-            this.cbUsaAuto.Name = "cbUsaAuto";
-            this.cbUsaAuto.Size = new System.Drawing.Size(105, 17);
-            this.cbUsaAuto.TabIndex = 3;
-            this.cbUsaAuto.Text = "¿Usa automóvil?";
-            this.cbUsaAuto.UseVisualStyleBackColor = true;
+            this.chkUsaAuto.AutoSize = true;
+            this.chkUsaAuto.Location = new System.Drawing.Point(115, 54);
+            this.chkUsaAuto.Name = "cbUsaAuto";
+            this.chkUsaAuto.Size = new System.Drawing.Size(105, 17);
+            this.chkUsaAuto.TabIndex = 3;
+            this.chkUsaAuto.Text = "¿Usa automóvil?";
+            this.chkUsaAuto.UseVisualStyleBackColor = true;
             // 
             // cbTranspPub
             // 
-            this.cbTranspPub.AutoSize = true;
-            this.cbTranspPub.Location = new System.Drawing.Point(115, 77);
-            this.cbTranspPub.Name = "cbTranspPub";
-            this.cbTranspPub.Size = new System.Drawing.Size(144, 17);
-            this.cbTranspPub.TabIndex = 4;
-            this.cbTranspPub.Text = "¿Usa transporte público?";
-            this.cbTranspPub.UseVisualStyleBackColor = true;
+            this.chkTranspPub.AutoSize = true;
+            this.chkTranspPub.Location = new System.Drawing.Point(115, 77);
+            this.chkTranspPub.Name = "cbTranspPub";
+            this.chkTranspPub.Size = new System.Drawing.Size(144, 17);
+            this.chkTranspPub.TabIndex = 4;
+            this.chkTranspPub.Text = "¿Usa transporte público?";
+            this.chkTranspPub.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.cbUsaBicicleta);
-            this.groupBox1.Controls.Add(this.cbTranspPub);
-            this.groupBox1.Controls.Add(this.cbUsaAuto);
+            this.groupBox1.Controls.Add(this.chkUsaBicicleta);
+            this.groupBox1.Controls.Add(this.chkTranspPub);
+            this.groupBox1.Controls.Add(this.chkUsaAuto);
             this.groupBox1.Location = new System.Drawing.Point(5, 3);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(296, 108);
@@ -140,7 +140,7 @@ namespace EncuestasForm
             // 
             this.groupBox3.Controls.Add(this.tbEmail);
             this.groupBox3.Controls.Add(this.label2);
-            this.groupBox3.Controls.Add(this.checkBox1);
+            this.groupBox3.Controls.Add(this.chkPuedeSerContactado);
             this.groupBox3.Location = new System.Drawing.Point(5, 178);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(296, 71);
@@ -167,14 +167,14 @@ namespace EncuestasForm
             // 
             // checkBox1
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(116, 19);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(143, 17);
-            this.checkBox1.TabIndex = 2;
-            this.checkBox1.Text = "¿Puede ser contactado?";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.chkPuedeSerContactado.AutoSize = true;
+            this.chkPuedeSerContactado.Location = new System.Drawing.Point(116, 19);
+            this.chkPuedeSerContactado.Name = "checkBox1";
+            this.chkPuedeSerContactado.Size = new System.Drawing.Size(143, 17);
+            this.chkPuedeSerContactado.TabIndex = 2;
+            this.chkPuedeSerContactado.Text = "¿Puede ser contactado?";
+            this.chkPuedeSerContactado.UseVisualStyleBackColor = true;
+            this.chkPuedeSerContactado.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // FormRegistroDeEncuesta
             // 
@@ -203,15 +203,15 @@ namespace EncuestasForm
         private System.Windows.Forms.Button btnConfirmar;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.GroupBox groupBox1;
-        public System.Windows.Forms.CheckBox cbUsaBicicleta;
-        public System.Windows.Forms.CheckBox cbUsaAuto;
-        public System.Windows.Forms.CheckBox cbTranspPub;
+        public System.Windows.Forms.CheckBox chkUsaBicicleta;
+        public System.Windows.Forms.CheckBox chkUsaAuto;
+        public System.Windows.Forms.CheckBox chkTranspPub;
         private System.Windows.Forms.GroupBox groupBox2;
         public System.Windows.Forms.TextBox tbDistanciaASuDestino;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox3;
         public System.Windows.Forms.TextBox tbEmail;
         private System.Windows.Forms.Label label2;
-        public System.Windows.Forms.CheckBox checkBox1;
+        public System.Windows.Forms.CheckBox chkPuedeSerContactado;
     }
 }

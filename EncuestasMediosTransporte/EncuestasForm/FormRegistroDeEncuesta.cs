@@ -19,7 +19,7 @@ namespace EncuestasForm
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            tbEmail.Enabled = checkBox1.Checked;
+            tbEmail.Enabled = chkPuedeSerContactado.Checked;
         }
     }
 }

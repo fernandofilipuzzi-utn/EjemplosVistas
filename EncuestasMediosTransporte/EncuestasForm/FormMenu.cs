@@ -28,14 +28,14 @@ namespace EncuestasForm
             {
                 Encuesta nuevo = new Encuesta();
 
-                nuevo.UsaBicicleta = fRegistro.cbUsaBicicleta.Checked;
-                nuevo.UsaAuto = fRegistro.cbUsaAuto.Checked;
-                nuevo.UsaTransportePublico = fRegistro.cbTranspPub.Checked;
+                nuevo.UsaBicicleta = fRegistro.chkUsaBicicleta.Checked;
+                nuevo.UsaAuto = fRegistro.chkUsaAuto.Checked;
+                nuevo.UsaTransportePublico = fRegistro.chkTranspPub.Checked;
                 nuevo.DistanciaASuDestino = Convert.ToDouble( fRegistro.tbDistanciaASuDestino.Text);
 
                 nuevo.Email = fRegistro.tbEmail.Text;
 
-                bool puedeSerContactado = fRegistro.checkBox1.Checked;
+                bool puedeSerContactado = fRegistro.chkPuedeSerContactado.Checked;
 
                 proceso.RegistrarEncuesta(nuevo, puedeSerContactado);
             }
