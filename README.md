@@ -8,7 +8,7 @@ Temas:
 
 
 **El diagrama UML:**<br/>
-![alt text](https://github.com/fernandofilipuzzi-utn/ActividadEncuestas/blob/form/EncuestasMediosTransporte/EncuestasLib/uml/encuesta.jpg)
+![alt text](https://github.com/fernandofilipuzzi-utn/ActividadEncuestas/blob/main/EncuestasMediosTransporte/EncuestasCMD/uml/encuesta.jpg?raw=true)
 
 **Recordario comandos git - para los que quieran ver la segunda parte resuelta**
 - Preparar el repo y clonar el repositorio 
