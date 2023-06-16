@@ -39,3 +39,31 @@ C:\repos\ActividadEncuestas>git branch
 ```
 C:\repos\ActividadEncuestas>start .
 ```
+
+
+**Recordario comandos git - para los clonan el fork del repositorio **
+
+- Preparar el repo y clonar el fork del repositorio 
+```
+C:\Users\fernando> cd ../..
+C:\> mkdir repos
+C:\> cd repos
+C:\repos> git clone https://github.com/fernandofilipuzzi-utn/ActividadEncuestas.git
+C:\repos> cd ActividadEncuestas
+C:\repos\ActividadEncuestas> 
+```
+
+- Configurar el repo
+```
+C:\repos\ActividadEncuestas> git config user.name miCuentaGit
+C:\repos\ActividadEncuestas> git config user.email miCuentaCorreoEnGit@miCorreo.com
+C:\repos\ActividadEncuestas> git remote set-url origin https://miCuentaGit@URLdelForkRepo.git
+```
+
+- Subir cambios al repositorio remoto
+```
+C:\repos\ActividadEncuestas> git status
+C:\repos\ActividadEncuestas> git add *
+C:\repos\ActividadEncuestas> git commit -m "actividad #2"
+C:\repos\ActividadEncuestas> git push
+```
