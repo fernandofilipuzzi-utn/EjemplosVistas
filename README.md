@@ -7,13 +7,13 @@ Temas:
    - ventanas modales
 
 
-El diagrama UML:<br/>
-![alt text](https://github.com/fernandofilipuzzi-utn/ActividadEncuestas/blob/main/EncuestasMediosTransporte/EncuestasCMD/uml/encuesta.jpg?raw=true)
+**El diagrama UML:**<br/>
+![alt text](https://github.com/fernandofilipuzzi-utn/ActividadEncuestas/blob/main/EncuestasMediosTransporte/EncuestasCMD/uml/encuesta.jpg)
 
 **Recordario comandos git - para los que quieran ver la segunda parte resuelta**
 - Preparar el repo y clonar el repositorio 
 ```
-C:\Users\fernando> cd ../..
+C:\Users\MiUsuarioWindows> cd ../..
 C:\> mkdir repos
 C:\> cd repos
 C:\repos> git clone https://github.com/fernandofilipuzzi-utn/ActividadEncuestas.git
@@ -41,11 +41,11 @@ C:\repos\ActividadEncuestas>git branch
 C:\repos\ActividadEncuestas>start .
 ```
 
-**Recordario comandos git - para los clonan el fork del repositorio **
+**Recordario comandos git - para los clonan el fork del repositorio**
 
 - Preparar el repo y clonar el fork del repositorio 
 ```
-C:\Users\fernando> cd ../..
+C:\Users\MiUsuarioWindows> cd ../..
 C:\> mkdir repos
 C:\> cd repos
 C:\repos> git clone https://github.com/fernandofilipuzzi-utn/ActividadEncuestas.git
