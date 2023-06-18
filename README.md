@@ -1,3 +1,4 @@
+[![GitHub issues](https://github.com/fernandofilipuzzi-utn/ActividadEncuestas/issues)
 # Actividad en el aula  - Encuestas
 
 Temas:
