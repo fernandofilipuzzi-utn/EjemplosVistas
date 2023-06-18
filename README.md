@@ -1,4 +1,5 @@
 [![GitHub issues](https://img.shields.io/github/issues/fernandofilipuzzi-utn/ActividadEncuestas)](https://github.com/fernandofilipuzzi-utn/ActividadEncuestas/issues)
+
 # Actividad en el aula  - Encuestas
 
 Temas:
@@ -13,7 +14,8 @@ Temas:
 
 **Recordario comandos git - para los que quieran ver la segunda parte resuelta**
 - Preparar el repo y clonar el repositorio 
-```
+
+```bash
 C:\Users\MiUsuarioWindows> cd ../..
 C:\> mkdir repos
 C:\> cd repos
@@ -23,29 +25,29 @@ C:\repos\ActividadEncuestas>
 ```
 
 - Cambiar a la **rama form**(resuelto completo)
-```
+```bash
 C:\repos\ActividadEncuestas>git checkout form
 ```
 
 - Volver a la rama main, (siempre que no tengan cambios realizados)
-```
+```bash
 C:\repos\ActividadEncuestas>git checkout main
 ```
 
 - saber en que rama están
-```
+```bash
 C:\repos\ActividadEncuestas>git branch
 ```
 
 - lanzar el explorador de archivos donde están
-```
+```bash
 C:\repos\ActividadEncuestas>start .
 ```
 
 **Recordario comandos git - para los clonan el fork del repositorio**
 
 - Preparar el repo y clonar el fork del repositorio 
-```
+```bash
 C:\Users\MiUsuarioWindows> cd ../..
 C:\> mkdir repos
 C:\> cd repos
@@ -55,14 +57,14 @@ C:\repos\ActividadEncuestas>
 ```
 
 - Configurar el repo
-```
+```bash
 C:\repos\ActividadEncuestas> git config user.name miCuentaGit
 C:\repos\ActividadEncuestas> git config user.email miCuentaCorreoEnGit@miCorreo.com
 C:\repos\ActividadEncuestas> git remote set-url origin https://miCuentaGit@URLdelForkRepo.git
 ```
 
 - Subir cambios al repositorio remoto
-```
+```bash
 C:\repos\ActividadEncuestas> git status
 C:\repos\ActividadEncuestas> git add *
 C:\repos\ActividadEncuestas> git commit -m "actividad #2"
