@@ -15,31 +15,13 @@ namespace EncuestasWeb
     {
 
         /// <summary>
-        /// Control lblGrupo.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblGrupo;
-
-        /// <summary>
-        /// Control chkListOpciones.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList chkListOpciones;
-
-        /// <summary>
         /// Control chkUsaBicleta.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListItem chkUsaBicleta;
+        protected global::System.Web.UI.WebControls.CheckBox chkUsaBicleta;
 
         /// <summary>
         /// Control chkUsaAuto.
@@ -48,7 +30,7 @@ namespace EncuestasWeb
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListItem chkUsaAuto;
+        protected global::System.Web.UI.WebControls.CheckBox chkUsaAuto;
 
         /// <summary>
         /// Control chkUsaTranspPub.
@@ -57,7 +39,34 @@ namespace EncuestasWeb
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListItem chkUsaTranspPub;
+        protected global::System.Web.UI.WebControls.CheckBox chkUsaTranspPub;
+
+        /// <summary>
+        /// Control tbDistanciaASuDestino.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbDistanciaASuDestino;
+
+        /// <summary>
+        /// Control chkPuedeSerContactado.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox chkPuedeSerContactado;
+
+        /// <summary>
+        /// Control tbEmail.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbEmail;
 
         /// <summary>
         /// Control btnIngresarEncuesta.

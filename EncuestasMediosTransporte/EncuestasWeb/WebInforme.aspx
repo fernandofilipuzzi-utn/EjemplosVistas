@@ -4,7 +4,9 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     
-    <asp:BulletedList ID="ddlInforme"  style="list-style-type: none;" runat="server">    
-    </asp:BulletedList>
-    
+   <fieldset class="group">
+        <legend>Sobre el destino al trabajo/estudio</legend>
+        <asp:ListBox ID="ltbInforme" Width="100%" Enabled="false" runat="server"></asp:ListBox>
+   </fieldset> 
+
 </asp:Content>

@@ -6,8 +6,7 @@
 
     <div class="jumbotron">
         <h1>Mi Secretaria de transporte</h1>
-        <p class="lead">Encuestas sobre el uso de los trasnportes urbanos</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+        <p class="lead">Encuestas sobre el uso de los transportes urbanos</p>
     </div>
 
     <div class="row">

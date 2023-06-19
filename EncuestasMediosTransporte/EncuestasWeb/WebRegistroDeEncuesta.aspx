@@ -3,34 +3,52 @@
     Inherits="EncuestasWeb.WebFormRegistroDeEncuesta" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    
+     
     <div>
-        <div class="checkbox-group">
-            <asp:Label ID="lblGrupo"
-                                AssociatedControlID="chkListOpciones" 
-                                Text="Modo de transporte habitual" runat="server" />
+           
+        <fieldset class="checkbox-group">
+            <legend>Modo de transporte habitual</legend>
+            <asp:CheckBox ID="chkUsaBicleta" 
+                            Text="¿Usa Bicicleta?" 
+                            runat="server" /><br/>
+            <asp:CheckBox ID="chkUsaAuto" 
+                            Text="¿Usa automóvil?" 
+                            runat="server" /><br/>
+            <asp:CheckBox ID="chkUsaTranspPub" 
+                            Text="¿Usa transporte público?" 
+                            runat="server" />            
+        </fieldset>
+        
+        <br/>
 
-                <asp:CheckBoxList ID="chkListOpciones" runat="server">
+        <fieldset class="group">
+            <legend>Sobre el destino al trabajo/estudio</legend>
+            <div class="form-group">
+                <asp:Label runat="server">Distancia en (km)</asp:Label>
+                <asp:TextBox ID="tbDistanciaASuDestino"
+                   runat="server"></asp:TextBox>
+            </div>
+        </fieldset>
 
-                <asp:ListItem ID="chkUsaBicleta" 
-                                Text="¿Usa Bicicleta?" 
-                                Value="1"></asp:ListItem>
+        <br/>
 
-                <asp:ListItem ID="chkUsaAuto" 
-                                Text="¿Usa automóvil?" 
-                                Value="2"></asp:ListItem>
-
-                <asp:ListItem ID="chkUsaTranspPub" 
-                                Text="¿Usa transporte público?" 
-                                Value="3"></asp:ListItem>                
-
-            </asp:CheckBoxList>
-        </div>
+        <fieldset class="checkbox-group">
+            <legend>Contacto</legend>
+            <div class="form-group">
+                <asp:CheckBox ID="chkPuedeSerContactado" 
+                                Text="¿Puede ser contactado?" 
+                                runat="server" />
+            </div>
+            <div class="form-group">
+                <asp:Label runat="server">Email</asp:Label>
+                <asp:TextBox ID="tbEmail"  runat="server"></asp:TextBox>
+            </div>
+        </fieldset>
 
         <div>
             <asp:Button ID="btnIngresarEncuesta" runat="server"
                         OnClick="btnIngresarEncuesta_Click"
-                        Text="Aceptar"></asp:Button>
+                        Text="Ingresar"></asp:Button>
             <asp:Button ID="btnCancelar" runat="server"
                         OnClick="btnCancelar_Click"
                         Text="Cancelar"></asp:Button>            

@@ -12,6 +12,13 @@ namespace EncuestasWeb
 {
     public partial class WebInforme : System.Web.UI.Page
     {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (!IsPostBack)
+            {
+            }
+        }
+
         protected void Page_Init(object sender, EventArgs e)
         {
             string tipo = Request.QueryString["tipo"];
@@ -31,31 +38,24 @@ namespace EncuestasWeb
 
         void Informe(ProcesoEncuestas proceso)
         {
-            ddlInforme.Items.Add("");
-            ddlInforme.Items.Add("\t\t Informe de resultados");
-            ddlInforme.Items.Add("");
-            ddlInforme.Items.Add("Modo de transporte habitual");
-            ddlInforme.Items.Add($"\t{"Bicicleta:",-20}  {proceso.PorcBicleta,10:f2}%");
-            ddlInforme.Items.Add($"\t{"Automóvil:",-20}  {proceso.PorcAuto,10:f2}%");
-            ddlInforme.Items.Add($"\t{"Transporte público:",-20}  {proceso.PorcTranspPublico,10:f2}%");
+            ltbInforme.Items.Add("");
+            ltbInforme.Items.Add("\t\t Informe de resultados");
+            ltbInforme.Items.Add("");
+            ltbInforme.Items.Add("Modo de transporte habitual");
+            ltbInforme.Items.Add($"\t{"Bicicleta:",-20}  {proceso.PorcBicleta,10:f2}%");
+            ltbInforme.Items.Add($"\t{"Automóvil:",-20}  {proceso.PorcAuto,10:f2}%");
+            ltbInforme.Items.Add($"\t{"Transporte público:",-20}  {proceso.PorcTranspPublico,10:f2}%");
         }
 
         void ListadoContactables(ProcesoEncuestas proceso)
         {
-            ddlInforme.Items.Add("\t\t Informe de encuestados contactables \n");
+            ltbInforme.Items.Add("\t\t Informe de encuestados contactables \n");
 
             proceso.OrdernarEncuestables();
-            ddlInforme.Items.Add($"\t{"Email",-30} {"Distancia",10}");
+            ltbInforme.Items.Add($"\t{"Email",-30} {"Distancia",10}");
             for (int n = 0; n < proceso.CantContactables; n++)
             {
-                ddlInforme.Items.Add($"\t{proceso.VerContactable(n).Email,-30} {proceso.VerContactable(n).DistanciaASuDestino,10:f2}");
-            }
-        }
-
-        protected void Page_Load(object sender, EventArgs e)
-        {
-            if (!IsPostBack)
-            {
+                ltbInforme.Items.Add($"\t{proceso.VerContactable(n).Email,-30} {proceso.VerContactable(n).DistanciaASuDestino,10:f2}");
             }
         }
     }

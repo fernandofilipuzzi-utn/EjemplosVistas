@@ -27,16 +27,23 @@ namespace EncuestasWeb
         {
             Encuesta nuevo = new Encuesta();
 
-            nuevo.UsaBicicleta = chkUsaBicleta.Selected;
-            nuevo.UsaAuto= chkUsaAuto.Selected;
-            nuevo.UsaTransportePublico = chkUsaTranspPub.Selected;
+            nuevo.UsaBicicleta = chkUsaBicleta.Checked;
+            nuevo.UsaAuto= chkUsaAuto.Checked;
+            nuevo.UsaTransportePublico = chkUsaTranspPub.Checked;
+
+            nuevo.DistanciaASuDestino = Convert.ToDouble( tbDistanciaASuDestino.Text );
+
+            if (chkPuedeSerContactado.Checked == true)
+                nuevo.Email = tbEmail.Text;
 
             Manager.proceso.RegistrarEncuesta(nuevo, true);
+            
+            Response.Redirect("Default.aspx", false);
         }
 
         protected void btnCancelar_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("Default.aspx", false);
         }
     }
 }

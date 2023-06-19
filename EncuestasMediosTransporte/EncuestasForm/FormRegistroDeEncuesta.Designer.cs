@@ -67,31 +67,31 @@ namespace EncuestasForm
             this.button2.Text = "Cancelar";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // cbUsaBicicleta
+            // chkUsaBicicleta
             // 
             this.chkUsaBicicleta.AutoSize = true;
             this.chkUsaBicicleta.Location = new System.Drawing.Point(115, 31);
-            this.chkUsaBicicleta.Name = "cbUsaBicicleta";
+            this.chkUsaBicicleta.Name = "chkUsaBicicleta";
             this.chkUsaBicicleta.Size = new System.Drawing.Size(92, 17);
             this.chkUsaBicicleta.TabIndex = 2;
             this.chkUsaBicicleta.Text = "¿Usa Bicleta?";
             this.chkUsaBicicleta.UseVisualStyleBackColor = true;
             // 
-            // cbUsaAuto
+            // chkUsaAuto
             // 
             this.chkUsaAuto.AutoSize = true;
             this.chkUsaAuto.Location = new System.Drawing.Point(115, 54);
-            this.chkUsaAuto.Name = "cbUsaAuto";
+            this.chkUsaAuto.Name = "chkUsaAuto";
             this.chkUsaAuto.Size = new System.Drawing.Size(105, 17);
             this.chkUsaAuto.TabIndex = 3;
             this.chkUsaAuto.Text = "¿Usa automóvil?";
             this.chkUsaAuto.UseVisualStyleBackColor = true;
             // 
-            // cbTranspPub
+            // chkTranspPub
             // 
             this.chkTranspPub.AutoSize = true;
             this.chkTranspPub.Location = new System.Drawing.Point(115, 77);
-            this.chkTranspPub.Name = "cbTranspPub";
+            this.chkTranspPub.Name = "chkTranspPub";
             this.chkTranspPub.Size = new System.Drawing.Size(144, 17);
             this.chkTranspPub.TabIndex = 4;
             this.chkTranspPub.Text = "¿Usa transporte público?";
@@ -155,21 +155,22 @@ namespace EncuestasForm
             this.tbEmail.Name = "tbEmail";
             this.tbEmail.Size = new System.Drawing.Size(160, 20);
             this.tbEmail.TabIndex = 2;
+            this.tbEmail.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbEmail_KeyPress);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(21, 44);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 13);
+            this.label2.Size = new System.Drawing.Size(32, 13);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Distancia en (km)";
+            this.label2.Text = "Email";
             // 
-            // checkBox1
+            // chkPuedeSerContactado
             // 
             this.chkPuedeSerContactado.AutoSize = true;
             this.chkPuedeSerContactado.Location = new System.Drawing.Point(116, 19);
-            this.chkPuedeSerContactado.Name = "checkBox1";
+            this.chkPuedeSerContactado.Name = "chkPuedeSerContactado";
             this.chkPuedeSerContactado.Size = new System.Drawing.Size(143, 17);
             this.chkPuedeSerContactado.TabIndex = 2;
             this.chkPuedeSerContactado.Text = "¿Puede ser contactado?";
