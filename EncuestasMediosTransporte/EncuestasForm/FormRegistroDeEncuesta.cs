@@ -17,12 +17,12 @@ namespace EncuestasForm
             InitializeComponent();
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        private void chkPuedeSerContactado_CheckedChanged(object sender, EventArgs e)
         {
             tbEmail.Enabled = chkPuedeSerContactado.Checked;
         }
 
-        private void tbEmail_KeyPress(object sender, KeyPressEventArgs e)
+        private void tbDistanciaASuDestino_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (char.IsNumber(e.KeyChar) || e.KeyChar == ',' ||
                char.IsControl(e.KeyChar))

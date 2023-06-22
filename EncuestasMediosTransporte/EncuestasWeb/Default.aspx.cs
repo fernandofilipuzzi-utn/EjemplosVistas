@@ -15,14 +15,17 @@ namespace EncuestasWeb
             {
                 List<MenuOption> menuOptions = new List<MenuOption>
                 {
-                    new MenuOption { Title = "Registrar Encuesta", 
-                                     Description = "Regitre la encuesta al interesado",
+                    new MenuOption { Title = "Registrar Encuesta",
+                                        ImageUrl="img/encuesta.png",
+                                     Descripcion = "Regitre la encuesta al interesado",
                                      Link = "WebRegistroDeEncuesta.aspx" },
                     new MenuOption { Title = "Informe General",
-                                     Description = "Informe de pocentajes de uso de tipos de transporte público",
+                                    ImageUrl="img/informe.png",
+                                     Descripcion = "Informe de pocentajes de uso de tipos de transporte público",
                                       Link = "WebInforme.aspx?tipo=general" },
                     new MenuOption { Title = "Informe de Encuestados contactables",
-                                     Description = "Informe de los contactables",
+                                    ImageUrl="img/informe.png",
+                                     Descripcion = "Informe de los contactables",
                                      Link = "WebInforme.aspx?tipo=contactables" }
                 };
 
@@ -34,7 +37,9 @@ namespace EncuestasWeb
         public class MenuOption
         {
             public string Title { get; set; }
-            public string Description { get; set; }
+
+            public string ImageUrl { get; set; }
+            public string Descripcion { get; set; }
             public string Link { get; set; }
         }
 

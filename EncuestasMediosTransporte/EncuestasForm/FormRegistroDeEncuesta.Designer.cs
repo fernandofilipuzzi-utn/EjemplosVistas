@@ -155,7 +155,7 @@ namespace EncuestasForm
             this.tbEmail.Name = "tbEmail";
             this.tbEmail.Size = new System.Drawing.Size(160, 20);
             this.tbEmail.TabIndex = 2;
-            this.tbEmail.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbEmail_KeyPress);
+            this.tbEmail.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbDistanciaASuDestino_KeyPress);
             // 
             // label2
             // 
@@ -175,7 +175,7 @@ namespace EncuestasForm
             this.chkPuedeSerContactado.TabIndex = 2;
             this.chkPuedeSerContactado.Text = "¿Puede ser contactado?";
             this.chkPuedeSerContactado.UseVisualStyleBackColor = true;
-            this.chkPuedeSerContactado.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.chkPuedeSerContactado.CheckedChanged += new System.EventHandler(this.chkPuedeSerContactado_CheckedChanged);
             // 
             // FormRegistroDeEncuesta
             // 
