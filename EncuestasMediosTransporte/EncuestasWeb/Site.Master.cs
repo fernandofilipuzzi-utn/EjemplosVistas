@@ -13,5 +13,11 @@ namespace EncuestasWeb
         {
 
         }
+
+        public void ShowMessage(string titulo, string mensaje)
+        {
+            ScriptManager.RegisterStartupScript(this, GetType(),
+               "showModal", $"mostrarModal('{ mensaje}');", true);
+        }
     }
 }

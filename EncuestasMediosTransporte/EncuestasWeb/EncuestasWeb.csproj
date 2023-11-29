@@ -115,160 +115,7 @@
     <Content Include="assets\js\jquery.validate.min.js" />
     <Content Include="assets\js\main.js" />
     <Content Include="Contact.aspx" />
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="dist\itsy\about.html" />
-    <Content Include="dist\itsy\blog.html" />
-    <Content Include="dist\itsy\contact.html" />
-    <Content Include="dist\itsy\ie.css" />
-    <Content Include="dist\itsy\images\about-me.jpg" />
-    <Content Include="dist\itsy\images\Apothecary.jpg" />
-    <Content Include="dist\itsy\images\Bridge.jpg" />
-    <Content Include="dist\itsy\images\Camper-1.jpg" />
-    <Content Include="dist\itsy\images\Flower-Shop.jpg" />
-    <Content Include="dist\itsy\images\Flowers.jpg" />
-    <Content Include="dist\itsy\images\gallery.png" />
-    <Content Include="dist\itsy\images\icons\arrows%402x.png" />
-    <Content Include="dist\itsy\images\icons\audio%402x.png" />
-    <Content Include="dist\itsy\images\icons\audio.png" />
-    <Content Include="dist\itsy\images\icons\featured.svg" />
-    <Content Include="dist\itsy\images\icons\social-adn-black%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-adn-black.png" />
-    <Content Include="dist\itsy\images\icons\social-adn-white%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-adn-white.png" />
-    <Content Include="dist\itsy\images\icons\social-behance-black%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-behance-black.png" />
-    <Content Include="dist\itsy\images\icons\social-behance-white%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-behance-white.png" />
-    <Content Include="dist\itsy\images\icons\social-dribbble-black%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-dribbble-black.png" />
-    <Content Include="dist\itsy\images\icons\social-dribbble-white%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-dribbble-white.png" />
-    <Content Include="dist\itsy\images\icons\social-facebook-black%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-facebook-black.png" />
-    <Content Include="dist\itsy\images\icons\social-facebook-white%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-facebook-white.png" />
-    <Content Include="dist\itsy\images\icons\social-flickr-black%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-flickr-black.png" />
-    <Content Include="dist\itsy\images\icons\social-flickr-white%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-flickr-white.png" />
-    <Content Include="dist\itsy\images\icons\social-foursquare-black%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-foursquare-black.png" />
-    <Content Include="dist\itsy\images\icons\social-foursquare-white%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-foursquare-white.png" />
-    <Content Include="dist\itsy\images\icons\social-github-black%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-github-black.png" />
-    <Content Include="dist\itsy\images\icons\social-github-white%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-github-white.png" />
-    <Content Include="dist\itsy\images\icons\social-googleplus-black%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-googleplus-black.png" />
-    <Content Include="dist\itsy\images\icons\social-googleplus-white%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-googleplus-white.png" />
-    <Content Include="dist\itsy\images\icons\social-instagram-black%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-instagram-black.png" />
-    <Content Include="dist\itsy\images\icons\social-instagram-white%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-instagram-white.png" />
-    <Content Include="dist\itsy\images\icons\social-lastfm-black%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-lastfm-black.png" />
-    <Content Include="dist\itsy\images\icons\social-lastfm-white%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-lastfm-white.png" />
-    <Content Include="dist\itsy\images\icons\social-linkedin-black%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-linkedin-black.png" />
-    <Content Include="dist\itsy\images\icons\social-linkedin-white%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-linkedin-white.png" />
-    <Content Include="dist\itsy\images\icons\social-mixcloud-black%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-mixcloud-black.png" />
-    <Content Include="dist\itsy\images\icons\social-mixcloud-white%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-mixcloud-white.png" />
-    <Content Include="dist\itsy\images\icons\social-pinterest-black%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-pinterest-black.png" />
-    <Content Include="dist\itsy\images\icons\social-pinterest-white%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-pinterest-white.png" />
-    <Content Include="dist\itsy\images\icons\social-rss-black%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-rss-black.png" />
-    <Content Include="dist\itsy\images\icons\social-rss-white%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-rss-white.png" />
-    <Content Include="dist\itsy\images\icons\social-soundcloud-black%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-soundcloud-black.png" />
-    <Content Include="dist\itsy\images\icons\social-soundcloud-white%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-soundcloud-white.png" />
-    <Content Include="dist\itsy\images\icons\social-spotify-black%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-spotify-black.png" />
-    <Content Include="dist\itsy\images\icons\social-spotify-white%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-spotify-white.png" />
-    <Content Include="dist\itsy\images\icons\social-tumblr-black%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-tumblr-black.png" />
-    <Content Include="dist\itsy\images\icons\social-tumblr-white%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-tumblr-white.png" />
-    <Content Include="dist\itsy\images\icons\social-twitter-black%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-twitter-black.png" />
-    <Content Include="dist\itsy\images\icons\social-twitter-white%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-twitter-white.png" />
-    <Content Include="dist\itsy\images\icons\social-vimeo-black%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-vimeo-black.png" />
-    <Content Include="dist\itsy\images\icons\social-vimeo-white%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-vimeo-white.png" />
-    <Content Include="dist\itsy\images\icons\social-xing-black%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-xing-black.png" />
-    <Content Include="dist\itsy\images\icons\social-xing-white%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-xing-white.png" />
-    <Content Include="dist\itsy\images\icons\social-youtube-black%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-youtube-black.png" />
-    <Content Include="dist\itsy\images\icons\social-youtube-white%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-youtube-white.png" />
-    <Content Include="dist\itsy\images\icons\social-zerply-black%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-zerply-black.png" />
-    <Content Include="dist\itsy\images\icons\social-zerply-white%402x.png" />
-    <Content Include="dist\itsy\images\icons\social-zerply-white.png" />
-    <Content Include="dist\itsy\images\icons\stars%402x.png" />
-    <Content Include="dist\itsy\images\icons\stars-white%402x.png" />
-    <Content Include="dist\itsy\images\icons\stars-white.png" />
-    <Content Include="dist\itsy\images\icons\stars.png" />
-    <Content Include="dist\itsy\images\icons\tick-black%402x.png" />
-    <Content Include="dist\itsy\images\icons\tick-black.png" />
-    <Content Include="dist\itsy\images\icons\tick-blue%402x.png" />
-    <Content Include="dist\itsy\images\icons\tick-blue.png" />
-    <Content Include="dist\itsy\images\icons\tick-green%402x.png" />
-    <Content Include="dist\itsy\images\icons\tick-green.png" />
-    <Content Include="dist\itsy\images\icons\tick-grey%402x.png" />
-    <Content Include="dist\itsy\images\icons\tick-grey.png" />
-    <Content Include="dist\itsy\images\icons\tick-light-blue%402x.png" />
-    <Content Include="dist\itsy\images\icons\tick-light-blue.png" />
-    <Content Include="dist\itsy\images\icons\tick-orange%402x.png" />
-    <Content Include="dist\itsy\images\icons\tick-orange.png" />
-    <Content Include="dist\itsy\images\icons\tick-pink%402x.png" />
-    <Content Include="dist\itsy\images\icons\tick-pink.png" />
-    <Content Include="dist\itsy\images\icons\tick-purple%402x.png" />
-    <Content Include="dist\itsy\images\icons\tick-purple.png" />
-    <Content Include="dist\itsy\images\icons\tick-red%402x.png" />
-    <Content Include="dist\itsy\images\icons\tick-red.png" />
-    <Content Include="dist\itsy\images\icons\toggle-close%402x.png" />
-    <Content Include="dist\itsy\images\icons\toggle-close.png" />
-    <Content Include="dist\itsy\images\icons\toggle-open%402x.png" />
-    <Content Include="dist\itsy\images\icons\toggle-open.png" />
-    <Content Include="dist\itsy\images\icons\zillalikes-off.svg" />
-    <Content Include="dist\itsy\images\icons\zillalikes-on.svg" />
-    <Content Include="dist\itsy\images\lead.jpg" />
-    <Content Include="dist\itsy\images\Lollipop-502x502.jpg" />
-    <Content Include="dist\itsy\images\Lollipop.jpg" />
-    <Content Include="dist\itsy\images\Meeting.jpg" />
-    <Content Include="dist\itsy\images\Run-1.jpg" />
-    <Content Include="dist\itsy\images\Run-2.jpg" />
-    <Content Include="dist\itsy\images\Run-3.jpg" />
-    <Content Include="dist\itsy\images\Sun.jpg" />
-    <Content Include="dist\itsy\index.html" />
-    <Content Include="dist\itsy\js\global-plugins.min.js" />
-    <Content Include="dist\itsy\js\jquery-3.0.0.min.js" />
-    <Content Include="dist\itsy\js\jquery-migrate-3.0.1.min.js" />
-    <Content Include="dist\itsy\js\jquery.validate.min.js" />
-    <Content Include="dist\itsy\js\main.js" />
-    <Content Include="dist\itsy\print.css" />
-    <Content Include="dist\itsy\single.html" />
-    <Content Include="dist\itsy\style.css" />
-    <Content Include="dist\itsy\typography.html" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -276,22 +123,11 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Default.aspx" />
     <Content Include="img\encuesta.png" />
     <Content Include="img\informe.png" />
     <Content Include="WebRegistroDeEncuesta.aspx" />
     <Content Include="WebInforme.aspx" />
-    <None Include="Scripts\jquery-3.4.1.intellisense.js" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Scripts\jquery-3.4.1.js" />
-    <Content Include="Scripts\jquery-3.4.1.min.js" />
-    <Content Include="Scripts\jquery-3.4.1.slim.js" />
-    <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\WebForms\DetailsView.js" />
     <Content Include="Scripts\WebForms\Focus.js" />
@@ -315,10 +151,8 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
-    <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
-    <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -349,20 +183,6 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
-    <Compile Include="Site.Mobile.Master.cs">
-      <DependentUpon>Site.Mobile.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Site.Mobile.Master.designer.cs">
-      <DependentUpon>Site.Mobile.Master</DependentUpon>
-    </Compile>
-    <Compile Include="ViewSwitcher.ascx.cs">
-      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ViewSwitcher.ascx.designer.cs">
-      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
-    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -390,8 +210,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
-    <Content Include="Scripts\jquery-3.4.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

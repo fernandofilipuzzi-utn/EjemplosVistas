@@ -25,6 +25,7 @@ namespace EncuestasWeb
 
         protected void btnIngresarEncuesta_Click(object sender, EventArgs e)
         {
+            #region crear el registro con los datos de la encuesta
             Encuesta nuevo = new Encuesta();
 
             nuevo.UsaBicicleta = chkUsaBicleta.Checked;
@@ -35,6 +36,7 @@ namespace EncuestasWeb
 
             if (chkPuedeSerContactado.Checked == true)
                 nuevo.Email = tbEmail.Text;
+            #endregion
 
             Manager.proceso.RegistrarEncuesta(nuevo, true);
             

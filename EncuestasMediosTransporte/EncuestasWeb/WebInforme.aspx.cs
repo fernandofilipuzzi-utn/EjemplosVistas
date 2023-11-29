@@ -16,24 +16,25 @@ namespace EncuestasWeb
         {
             if (!IsPostBack)
             {
+                string tipo = Request.QueryString["tipo"];
+
+                if (!string.IsNullOrEmpty(tipo))
+                {
+                    if (tipo == "contactables")
+                    {
+                        ListadoContactables(Manager.proceso);
+                    }
+                    else if (tipo == "general")
+                    {
+                        Informe(Manager.proceso);
+                    }
+                }
             }
         }
 
         protected void Page_Init(object sender, EventArgs e)
         {
-            string tipo = Request.QueryString["tipo"];
-
-            if (!string.IsNullOrEmpty(tipo))
-            {
-                if (tipo == "contactables")
-                {
-                    ListadoContactables(Manager.proceso);
-                }
-                else if (tipo == "general")
-                {
-                    Informe(Manager.proceso);
-                }
-            }
+           
         }
 
         void Informe(ProcesoEncuestas proceso)
@@ -52,7 +53,8 @@ namespace EncuestasWeb
             ltbInforme.Items.Add("\t\t Informe de encuestados contactables \n");
 
             proceso.OrdernarEncuestables();
-            ltbInforme.Items.Add($"\t{"Email",-30} {"Distancia",10}");
+
+            ltbInforme.Items.Add($"\t{"Email",-30} {"Distancia",-10}");
             for (int n = 0; n < proceso.CantContactables; n++)
             {
                 ltbInforme.Items.Add($"\t{proceso.VerContactable(n).Email,-30} {proceso.VerContactable(n).DistanciaASuDestino,10:f2}");
