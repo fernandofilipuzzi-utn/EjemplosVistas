@@ -19,15 +19,18 @@
                 </LayoutTemplate>
 
                 <ItemTemplate>
-                    <div class="card text-center col-3 m-2">
+                    <div class="card col-3 m-2 p-3">
                         <asp:Image ID="menuImage" runat="server" ImageUrl='<%# Eval("ImageUrl") %>'
-                            CssClass="card-img-top" alt="" />
+                            CssClass="card-img-top img-fluid" style="height: 200px; object-fit: cover;" alt="" />
 
                         <div class="card-body">
                             <h5 class="card-title"><%# Eval("Title") %></h5>
-                            <p class="card-text"><%# Eval("Descripcion") %></p>
-                            <asp:HyperLink ID="menuLink" CssClass="btn btn-sm btn-primary" runat="server" NavigateUrl='<%# Eval("Link") %>'> IR </asp:HyperLink>
-                            </div>
+                            <div class="card-text"  style="max-height: 60px; overflow: hidden;"><%# Eval("Descripcion") %></div>
+                            
+                        </div>
+                        <div class="text-center">
+                            <asp:HyperLink ID="menuLink" CssClass="btn btn-sm btn-primary" runat="server" NavigateUrl='<%# Eval("Link") %>'> Ingresar </asp:HyperLink>
+                        </div>
                     </div>
                     
                 </ItemTemplate>
