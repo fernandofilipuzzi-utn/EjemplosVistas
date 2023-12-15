@@ -9,6 +9,7 @@ namespace EncuestasWeb.App_Start
 {
     public class Manager
     {
-        static public  ProcesoEncuestas proceso = new ProcesoEncuestas();
+        public static ProcesoEncuestas proceso = new ProcesoEncuestas();
+
     }
 }

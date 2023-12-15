@@ -24,12 +24,12 @@ namespace EncuestasCMD
             Console.WriteLine("3- Imprimir Listado contactables");
             Console.WriteLine("Otro- Cerrar");
 
-            return Convert.ToInt32( Console.ReadLine() );
+            return Convert.ToInt32(Console.ReadLine());
         }
 
         static bool Consulta(string msg)
         {
-            bool resultado=false;
+            bool resultado = false;
 
             Console.WriteLine(msg);
             ConsoleKeyInfo key = Console.ReadKey();
@@ -46,7 +46,7 @@ namespace EncuestasCMD
             }
             else
             {
-                Console.WriteLine("Respuesta inválida.");                
+                Console.WriteLine("Respuesta inválida.");
             }
             return resultado;
         }
@@ -58,7 +58,7 @@ namespace EncuestasCMD
             Encuesta nuevo = new Encuesta();
 
             Console.WriteLine("Modo de transporte habitual");
-            
+
             nuevo.UsaBicicleta = Consulta("¿Usa bicleta?: S/N");
             nuevo.UsaAuto = Consulta("¿Usa Automóvil?: S/N");
             nuevo.UsaTransportePublico = Consulta("¿Usa Transporte público?: S/N");
@@ -79,7 +79,7 @@ namespace EncuestasCMD
             Console.WriteLine("\nEncuesta procesada!");
 
             Console.WriteLine("Presione una tecla para volver al menú principal");
-            Console.ReadKey();            
+            Console.ReadKey();
         }
 
         static void Informe(ProcesoEncuestas proceso)
@@ -104,11 +104,7 @@ namespace EncuestasCMD
             Console.WriteLine("\t\t Informe de encuestados contactables \n");
 
             proceso.OrdernarEncuestables();
-<<<<<<< HEAD
             Console.WriteLine($"\t{"Email",-30} {"Distancia.",10}");
-=======
-            Console.WriteLine($"\t{"Email",-30} {"Distancia",10}");
->>>>>>> web
             for (int n = 0; n < proceso.CantContactables; n++)
             {
                 Console.WriteLine($"\t{proceso.VerContactable(n).Email,-30} {proceso.VerContactable(n).DistanciaASuDestino,10:f2}");
@@ -121,19 +117,10 @@ namespace EncuestasCMD
         static void Main(string[] args)
         {
             ProcesoEncuestas proceso = new ProcesoEncuestas();
-<<<<<<< HEAD
             /*para prueba
             proceso.RegistrarEncuesta(new Encuesta { Email = "fernando@gmail.com", DistanciaASuDestino = 4 },true);
             proceso.RegistrarEncuesta(new Encuesta { Email = "rafael@gmail.com", DistanciaASuDestino = 3 }, true);
             */
-=======
-
-            /*para realizar pruebas
-            proceso.RegistrarEncuesta(new Encuesta { DistanciaASuDestino = 3, Email = "fernando@gmail.com" },true);
-            proceso.RegistrarEncuesta(new Encuesta { DistanciaASuDestino = 1, Email = "rafael@gmail.com" },true);
-            */
-
->>>>>>> web
             int op;
             do
             {
@@ -144,7 +131,8 @@ namespace EncuestasCMD
                     case 1:
                         {
                             RegistroDeEncuesta(proceso);
-                        }break;
+                        }
+                        break;
                     case 2:
                         {
                             Informe(proceso);
@@ -155,12 +143,13 @@ namespace EncuestasCMD
                             ListadoContactables(proceso);
                         }
                         break;
-                    default: 
+                    default:
                         {
                             op = 0;
-                        }break;
+                        }
+                        break;
                 }
-            } while (op>0);
+            } while (op > 0);
         }
     }
 }
