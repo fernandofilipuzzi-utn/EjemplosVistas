@@ -19,7 +19,7 @@
                 </LayoutTemplate>
 
                 <ItemTemplate>
-                    <div class="card col-3 m-2 p-3">
+                    <div class="card col-lg-3 col-md-4 col-sm-6 m-2 p-3">
                         <asp:Image ID="menuImage" runat="server" ImageUrl='<%# Eval("ImageUrl") %>'
                             CssClass="card-img-top img-fluid" style="height: 200px; object-fit: cover;" alt="" />
 

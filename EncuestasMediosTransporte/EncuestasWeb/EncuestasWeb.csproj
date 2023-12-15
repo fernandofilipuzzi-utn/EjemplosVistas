@@ -116,6 +116,7 @@
     <Content Include="assets\js\main.js" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\Site.css" />
+    <Content Include="docs\pantallazo_formulario.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -207,7 +208,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="docs\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
