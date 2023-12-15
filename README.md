@@ -1,4 +1,4 @@
-# Actividad en el aula  - Encuestas
+# Ejemplo  - Encuestas
 
 Temas:
    - clases y objetos, 
