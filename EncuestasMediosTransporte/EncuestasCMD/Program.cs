@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using EncuestasLib;
+
+
 namespace EncuestasCMD
 {
     class Program
@@ -101,7 +104,11 @@ namespace EncuestasCMD
             Console.WriteLine("\t\t Informe de encuestados contactables \n");
 
             proceso.OrdernarEncuestables();
+<<<<<<< HEAD
             Console.WriteLine($"\t{"Email",-30} {"Distancia.",10}");
+=======
+            Console.WriteLine($"\t{"Email",-30} {"Distancia",10}");
+>>>>>>> web
             for (int n = 0; n < proceso.CantContactables; n++)
             {
                 Console.WriteLine($"\t{proceso.VerContactable(n).Email,-30} {proceso.VerContactable(n).DistanciaASuDestino,10:f2}");
@@ -114,10 +121,19 @@ namespace EncuestasCMD
         static void Main(string[] args)
         {
             ProcesoEncuestas proceso = new ProcesoEncuestas();
+<<<<<<< HEAD
             /*para prueba
             proceso.RegistrarEncuesta(new Encuesta { Email = "fernando@gmail.com", DistanciaASuDestino = 4 },true);
             proceso.RegistrarEncuesta(new Encuesta { Email = "rafael@gmail.com", DistanciaASuDestino = 3 }, true);
             */
+=======
+
+            /*para realizar pruebas
+            proceso.RegistrarEncuesta(new Encuesta { DistanciaASuDestino = 3, Email = "fernando@gmail.com" },true);
+            proceso.RegistrarEncuesta(new Encuesta { DistanciaASuDestino = 1, Email = "rafael@gmail.com" },true);
+            */
+
+>>>>>>> web
             int op;
             do
             {

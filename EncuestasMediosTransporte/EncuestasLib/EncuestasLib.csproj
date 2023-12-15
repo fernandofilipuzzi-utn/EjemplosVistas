@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C34AC50C-A46F-4559-8A80-9A693796875E}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>EncuestasCMD</RootNamespace>
-    <AssemblyName>EncuestasCMD</AssemblyName>
+    <ProjectGuid>{EF3F1983-63EF-4C38-B67B-0D4DA0C250E5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EncuestasLib</RootNamespace>
+    <AssemblyName>EncuestasLib</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,17 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Encuesta.cs" />
+    <Compile Include="ProcesoEncuestas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\EncuestasLib\EncuestasLib.csproj">
-      <Project>{ef3f1983-63ef-4c38-b67b-0d4da0c250e5}</Project>
-      <Name>EncuestasLib</Name>
-    </ProjectReference>
+    <None Include="uml\encuesta.uml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="uml\encuesta.jpg" />
