@@ -5,7 +5,7 @@
 
 
 
-<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server" style="background-color: #eaedef;">
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server" Style="background-color: #eaedef;">
 
     <script>
         function handleKeyPress(event) {
@@ -58,17 +58,14 @@
 
         <div class="col p-3 mb-3" style="background-color: #d6e1ed;">
             <h3>Contacto</h3>
+            <div class="form-group">
+                <asp:CheckBox ID="chkPuedeSerContactado" Text="¿Puede ser contactado?" runat="server" />
+            </div>
 
-            
-                <div class="form-group">
-                    <asp:CheckBox ID="chkPuedeSerContactado" Text="¿Puede ser contactado?" runat="server" />
-                </div>
-
-                <div class="form-inline">
-                    <label class="col-3" for="tbEmail">Email</label>
-                    <asp:TextBox ID="tbEmail" class="form-control col-5" TextMode="Email" placeholder="email" runat="server" />
-                </div>
-            
+            <div class="form-inline">
+                <label class="col-3" for="tbEmail">Email</label>
+                <asp:TextBox ID="tbEmail" class="form-control col-5" TextMode="Email" placeholder="email" runat="server" />
+            </div>
         </div>
 
         <div class="col p-3 mb-3" style="background-color: #d6e1ed;">
@@ -76,12 +73,12 @@
 
             <div class="container">
                 <div class="form-check col">
-                    <asp:RadioButton ID="rbOpcion1" class="form-check-input" runat="server" GroupName="grupoOpciones"/>
+                    <asp:RadioButton ID="rbOpcion1" class="form-check-input" runat="server" GroupName="grupoOpciones" />
                     <label class="form-check-label" for="rbOpcion1">Opción 1</label>
                 </div>
 
                 <div class="form-check col">
-                    <asp:RadioButton ID="rbOpcion2" class="form-check-input" runat="server" GroupName="grupoOpciones"/>
+                    <asp:RadioButton ID="rbOpcion2" class="form-check-input" runat="server" GroupName="grupoOpciones" />
                     <label class="form-check-label" for="rbOpcion2">Opción 2</label>
                 </div>
             </div>
