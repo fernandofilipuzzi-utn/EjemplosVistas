@@ -115,6 +115,7 @@
     <Content Include="assets\js\jquery.validate.min.js" />
     <Content Include="assets\js\main.js" />
     <Content Include="Contact.aspx" />
+    <Content Include="docs\pantallazo_menu.jpg" />
     <Content Include="docs\pantallazo_formulario.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
