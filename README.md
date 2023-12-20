@@ -13,7 +13,7 @@ Temas:
 <summary>Implementación web</summary>
 
 <div align="center">
-        <img style="width:40%;" src="EncuestasMediosTransporte/EncuestasWeb/docs/pantallazo_formulario.jpg"/>
+        <img style="width:60%;" src="EjEncuestasMediosTransporte/EncuestasWeb/docs/pantallazo_formulario.jpg"/>
         <p>Figura 1. </p>
 </div>
   
